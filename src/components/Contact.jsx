@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <footer className="mx-auto flex w-[90%] pt-15 max-w-5xl flex-col gap-15 md:min-h-[90vh] justify-between">
+        <footer className="mx-auto flex w-[90%] pt-15 max-w-5xl flex-col gap-15 min-h-[90vh] justify-between">
             <div className="mx-auto text-center">
                 <div className="flex flex-col items-center gap-5">
                     <div className="w-full border-t border-gray-300"></div>
