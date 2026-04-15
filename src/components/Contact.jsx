@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <footer className="mx-auto flex w-[90%] pt-15 max-w-5xl flex-col gap-15 min-h-screen justify-evenly">
+        <footer className="mx-auto flex w-[90%] pt-15 max-w-5xl flex-col gap-15 min-h-screen justify-between">
             <div className="mx-auto text-center">
                 <div className="flex flex-col items-center gap-5">
                     <div className="w-full border-t border-gray-300"></div>
@@ -15,7 +15,7 @@ function Contact() {
                             href="mailto:michaeljsarfo@gmail.com"
                             className="rounded-2xl border border-black px-5 py-4 transition-colors duration-300 hover:bg-black hover:text-white"
                         >
-                            Send Email
+                            Email
                         </a>
 
                         <a
@@ -40,6 +40,7 @@ function Contact() {
             </div>
 
             <div className="text-center text-xs">
+                <div className="border-t-1"></div>
                 <p>Website made by Michael Sarfo</p>
                 <p>All rights reserved. ©</p>
             </div>

@@ -20,7 +20,7 @@ function Experience() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="mx-auto w-[90%] max-w-5xl py-15 md:min-h-[80vh]"
+            className="mx-auto w-[90%] pt-16 max-w-5xl md:min-h-[90vh]"
         >
             <div className="mb-10 flex items-center gap-5">
                 <h2 className="whitespace-nowrap text-4xl">Experience</h2>
