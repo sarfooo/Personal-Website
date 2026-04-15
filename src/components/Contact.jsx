@@ -13,7 +13,7 @@ function Contact() {
                     <div className="flex w-full flex-col justify-center gap-10 md:flex-row md:flex-wrap">
                         <a
                             href="mailto:michaeljsarfo@gmail.com"
-                            className="rounded-2xl border border-black px-5 py-4 transition-colors duration-300 hover:bg-black hover:text-white"
+                            className="rounded-2xl border border-black px-10 py-4 transition-colors duration-300 hover:bg-black hover:text-white"
                         >
                             Email
                         </a>
@@ -22,7 +22,7 @@ function Contact() {
                             href="https://linkedin.com/in/michaelsarfox"
                             target="_blank"
                             rel="noreferrer"
-                            className="rounded-2xl border border-black px-6 py-4 transition-colors duration-300 hover:bg-black hover:text-white"
+                            className="rounded-2xl border border-black px-8 py-4 transition-colors duration-300 hover:bg-black hover:text-white"
                         >
                             Linkedin
                         </a>
@@ -31,7 +31,7 @@ function Contact() {
                             href="https://github.com/sarfooo"
                             target="_blank"
                             rel="noreferrer"
-                            className="rounded-2xl border border-black px-6 py-4 text-center transition-colors duration-300 hover:bg-black hover:text-white"
+                            className="rounded-2xl border border-black px-9 py-4 text-center transition-colors duration-300 hover:bg-black hover:text-white"
                         >
                             GitHub
                         </a>
