@@ -5,6 +5,7 @@ import About from  "./components/About.jsx";
 import Experience from "./components/Experience.jsx";
 import Navigation from './components/Navigation.jsx';
 import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
 	const aboutRef = useRef(null);
@@ -18,6 +19,7 @@ function App() {
 			<div ref={aboutRef}><About /></div>
 			<div ref={experienceRef}><Experience /></div>
 			<div ref={contactRef}><Contact /></div>
+			<Footer />
 
 		</div>
 	)

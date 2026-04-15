@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <footer className="mx-auto flex w-[90%] pt-15 max-w-5xl flex-col gap-15 min-h-screen justify-between">
+        <footer className="mx-auto flex w-[90%] pt-15 max-w-5xl flex-col gap-15 md:min-h-[90vh] justify-between">
             <div className="mx-auto text-center">
                 <div className="flex flex-col items-center gap-5">
                     <div className="w-full border-t border-gray-300"></div>
@@ -37,12 +37,6 @@ function Contact() {
                         </a>
                     </div>
                 </div>
-            </div>
-
-            <div className="text-center text-xs">
-                <div className="border-t-1"></div>
-                <p>Website made by Michael Sarfo</p>
-                <p>All rights reserved. ©</p>
             </div>
         </footer>
     );
